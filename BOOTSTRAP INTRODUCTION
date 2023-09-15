@@ -1,0 +1,51 @@
+BOOTSTRAP
+---------
+ Mobile is everything in our world
+ Front end css framework
+ 
+Histry of Bootstrap
+-------------------
+ Bootstrap,originally named twitterblueprit,
+ was developed by Mark otto and jacob thornton at Twitter
+
+ Boostrap was released as Open source  project on Augest 19,2011 
+ during his time  at  twitter company
+ 
+ installing meathod
+ ------------------
+   -online cdn(requires internet)
+   -offline Usage(wihtout Internet)
+   -package Mnanagers(NPM,yarn etc)
+   
+ today task
+ -----------
+ 25 videos 
+ 
+ 
+ -----------------------------------------------
+ 
+REBOOT
+------
+
+shotcut key rename F12
+ 
+reboot use to reboot the css default style
+----------------------------------------------- 
+VIEW PORT
+----------
+Extra small (xs)         - <576px 
+Small (sm)               - ≥576px
+Medium (md)              - ≥768px 
+Large (lg)               - ≥992px
+Extra large (xl)         - ≥1200px 	
+Extra extra large (xxl)  - ≥1400px
+-----------------------------------------------------
+CONTAINER
+---------
+  container
+  container-md
+  container-lg
+  container-fluid
+ --------------------------------------------
+
+ 
