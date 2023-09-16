@@ -1,0 +1,40 @@
+<table class="table">
+</table>
+
+<table class="table table-bordered">
+</table>
+
+.table-borderless
+color
+----
+table-primary
+table-secondary
+table-success
+table-danger
+table-warning
+table-info
+table-light
+
+.table-striped ,.table-striped-columns
+Ex:             ex
+-               -   -
+
+-
+------------------------
+table:hover
+
+.table-hover
+
+-------------------
+table responsive
+
+<div class="table-responsive table-responsive-lg">
+  <table class="table">
+    ...
+  </table>
+</div>
+
+
+
+
+
