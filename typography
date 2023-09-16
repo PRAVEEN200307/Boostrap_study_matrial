@@ -13,7 +13,7 @@ Display
 <h1 class="display-5">Display 5</h1>
 <h1 class="display-6">Display 6</h1>
 
-.lead
+.lead--same text of display class
 .text-muted 
   <h1 class="display-3 " >welcome <small class="text-muted">user</small></h1>
 
