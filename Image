@@ -1,0 +1,32 @@
+Image
+-----
+
+img-fluid
+img-thumbnail
+float-end float-start
+
+center
+
+<img src="..." class="rounded mx-auto d-block" alt="...">
+
+<div class="text-center">
+  <img src="..." class="rounded" alt="...">
+</div>
+
+
+ <body>
+    <!-- img-thumbnail -->
+     <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" 
+     alt="responsive" class="img-fluid rounded ">
+
+     <h2>Aligning image:</h2>
+
+     <img src="https://www.online-image-editor.com/styles/2019/images/power_girl.png"
+      alt="Learning image" width="250px" class="img-thumbnail">
+
+     <img src="https://static.vecteezy.com/system/resources/previews/013/211/278/original/cartoon-of-cow-illustration-cow-in-format-image-illustration-of-cow-free-png.png" 
+     alt="" width="250px" class="img-thumbnail float-end ">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+
