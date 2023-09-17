@@ -1,0 +1,18 @@
+Alert
+-----
+   <!-- Announcement -->
+   
+                    <div class="alert alert-danger" role="alert">
+                        we have disabled the register functionalities for now!
+                        <a href="#" class="alert-link">Learn now</a>
+                    </div>
+                    
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+                       <h4>welcome user</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis enim in non. Qui, quae cupiditate amet saepe officiis totam, cum assumenda libero quisquam labore reiciendis ut ex. Animi, aspernatur.</p> 
+                       <hr class="mt-3">
+                       <p>For information,<a href="#" class="alert-link">Check out here!</a></p>
+                    </div>
+                    
+<!-- end Announcement -->

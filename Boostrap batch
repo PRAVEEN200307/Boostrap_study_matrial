@@ -1,0 +1,13 @@
+Boostrap batch
+batch
+rounded-pill
+
+ <button class="btn btn-outline-primary">
+            notification
+            <span class="badge bg-primary">150</span>
+        </button>
+        
+ <h1>welcome to success moment
+   <span class="badge bg-primary rounded-pill">new</span>
+ </h1>
+
