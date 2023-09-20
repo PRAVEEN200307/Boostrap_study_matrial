@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Fontawesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- custom styling -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="dropdown">
+          <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             My Action
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="">
+              about</a></li>
+            <li><a class="dropdown-item" href="">My project</a></li>
+            <li><a class="dropdown-item" href="">Contact Me</a></li>
+          </ul>
+        </div>
+    </div>
+    <!-- end of dropdown -->
+    <div class="container my-3">
+       <div class="row">
+         <div class="col-6">
+            <button class="btn btn-primary">
+               <i class="fa fa-home" aria-hidden="true"> </i>
+                 Getting started!
+            </button>
+            <button class="btn btn-outline-success">
+              Total videos: <span class="badge badge-sucess">120</span>
+           </button>         
+         </div>
+         <div class="col-6">
+           <button class="btn btn-success dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            id="ContactMenuBtn"
+            type="button"
+           >Contact us</button>
+           <div class="dropdown-menu" aria-labelledy="#ContactMenuBtn">
+              <a href="" class="dropdown-item">
+                <i class="fa-brands fa-facebook-f  text-primary  mr-2"></i>
+                Facebook
+              </a>
+              <a href="" class="dropdown-item ">
+                <i class="fa-brands fa-youtube mr-2 text-danger"></i>
+                Youtube</a>
+              <a href="" class="dropdown-item">
+                <i class="fa-brands fa-twitter mr-2 text-info"></i>
+                Twitter</a>
+              <a href="" class="dropdown-item">
+                <i class="fa-brands fa-github mr-2"></i>
+                GitHub</a>
+                <div class="dropdown-divider"></div>
+              <a href="" class="dropdown-item">
+                <i class="fa-solid fa-envelope mr-2 text-dark"></i>
+                Email</a>
+           </div>
+         </div>
+       </div>
+    </div>
+     <div class="my-5"></div>
+    <div class="btn-group dropright">
+        <button class="btn  btn-lg bg-secondary text-white">
+          Contact Us
+        </button>
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split btn-lg" 
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+      
+        <div class="dropdown-menu" aria-labelledy="#ContactMenuBtn" data-bs-theme="dark">
+          <a href="" class="dropdown-item active">
+            <i class="fa-brands fa-facebook-f  text-primary  mr-2"></i>
+            Facebook
+          </a>
+          <a href="" class="dropdown-item ">
+            <i class="fa-brands fa-youtube mr-2 text-danger"></i>
+            Youtube</a>
+          <a href="" class="dropdown-item">
+            <i class="fa-brands fa-twitter mr-2 text-info"></i>
+            Twitter</a>
+          <a href="" class="dropdown-item">
+            <i class="fa-brands fa-github mr-2"></i>
+            GitHub</a>
+            <div class="dropdown-divider"></div>
+          <a href="" class="dropdown-item">
+            <i class="fa-solid fa-envelope mr-2 text-dark"></i>
+            Email</a>
+         </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
