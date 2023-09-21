@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/style.css">
+
+
+  </head>
+  <body>
+      <!-- Header -->
+      <div class="container-sm">
+      <header>
+         <nav class="navbar bg-primary navbar-expand-lg navbar-dark">
+           <a href="" class="navbar-brand">
+            bootstrap
+           </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="mynavbar">
+               <ul class="navbar-nav">
+                 <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                 <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                 <li class="nav-item"><a href="" class="nav-link">Conrtact</a></li>
+                 <li class="nav-item">
+                    <a href="" class="nav-link"></a>
+                 </li>
+               </ul>
+           </div>
+         </nav>
+      </header>
+      </div>
+      <!-- end Header -->
+       <div class="container mt-5">
+         <div class="card">
+            <div class="card-header text-center bg-success text-white">
+              Register form
+            </div>
+            <div class="card-body">
+              <form action="#" novalidate>
+                    <div class="row">
+                      <div class="col">
+                          <label for="first_nane" class="form-label" >Frist name</label>
+                          <input type="text" name="first_name" id="first_nane" class="form-control" placeholder="Enter your full name" required>
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                      </div>
+                      <!-- first name -->
+                      <!-- name input -->
+                    </div>
+                    <div class="row ">
+                      <div class="col-sm-6 mt-3">
+                        <label for="Mobile_no" >Mobile_no</label>
+                        <input type="number" class="form-control" id="Mobile_no" placeholder="91-9894583197"> 
+                        <small class="text-muted">We wont't share your number with anyone else</small>
+                          <!-- Mobile no -->
+                          <!-- input -->
+                          <!-- para -->
+                      </div>
+                      <div class="col-sm-6 mt-3 ">
+                          <!-- email no -->
+                          <!-- input -->
+                          <!-- para -->
+                          <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@gmail.--conform" required> 
+                        <small class="text-muted">We wont't share your email with anyone else</small>
+                      </div>
+                    </div>
+                    <div class="row ">
+                      <div class="col-sm-6 mt-3">
+                        <!-- label password -->
+                        <!-- input:pasword -->
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="password" class="form-control" placeholder="password">
+                      </div>
+                      <div class="col-sm-6  mt-3">
+                        <!--conform password -->
+                        <!-- input:pasword -->
+                        <label for="conformpassword">Conform password</label>
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Confrom password">
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col text-center">
+                        <input type="checkbox" name="conformation" id="">
+                        <label for="conformation">i aggree terms and conditions</label>
+                        <!-- checkbox -->
+                        <!-- content -->
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12 text-center">
+                          <button class="btn btn-secondary" type="reset" >reset</button>
+                          <button type="submit" class="btn btn-success">Register </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+          </div>
+          
+        </div>
+       
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div class="col-sm-10 col-xl-8 mx-auto">
+              <div class="card">
+                 <div class="card-body">
+                  <!-- horizontal card -->
+                      <form action="/" meathod="POST">
+                          <div class="mb-2 row">
+                              <label for="Email" class="form-label col-sm-4">Email</label>
+                              <div class="col-sm-8">
+                                <input type="email" name="email" id="Email" class="form-control" placeholder="Yogo@gmail.com" required>
+                              </div>
+                          </div>
+                          <div class="mb-2 row">
+                            <label for="password" class="form-label col-sm-4">password</label>
+                            <div class="col-sm-8">
+                              <input type="password" name="email" id="phone" 
+                              class="form-control" placeholder="Password">
+                            </div>
+                          </div>
+                          <div class="mb-3 row">
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-8">
+                              <div class="form-check">
+                                 <input type="checkbox" name="condition-check" id="termconditionchecking"  
+                                 class="form-check-input">
+                                 <label for="termconditionchecking" class="form-check-label">I agree the all terms and conditions</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="mb-3 row">
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-8 d-grid">
+                              <button class="btn btn-success" type="button">
+                                <i class="fa-solid fa-lock mr-2"></i>
+                                    Login
+                              </button>
+                            </div>
+                          </div>  
+                      </form>               
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container horizontal-card mt-5" >
+           <div class="card">
+              <div class="card-body">
+                <div class="row">
+                   
+                    <label for="Email" class="form-label col-sm-4">Email</label>
+            
+                   <div class="col-sm-8">
+                    <input type="email" name="email" id="Email" class="form-control" placeholder="Yogo@gmail.com" required>
+                   </div>
+                </div>
+                <div class="row mb-2">
+                   <div class="col-sm-4">
+                    <label for="password" class="form-label mt-2">password</label>
+                   </div>
+                   <div class="col-sm-8">
+                    <input type="password" name="email" id="phone" class="form-control" placeholder="Password">
+                   </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col"></div>
+                  <div class="col-sm-8 ">
+                    <input type="checkbox" name="" id="correction">
+                    <label for="correction" class="form-label">I aggree terms and conditions.</label>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                   <div class="col"></div>
+                   <div class="col-sm-8 d-grid">
+                     <button class="btn btn-primary" type="button">
+                      <i class="fa-solid fa-lock"></i>
+                      login</button>
+                   </div>
+                </div>
+              </div>
+           </div>
+        </div>
+
+        
+
+        
+         <div class="mt-5"></div>
+      <script src="assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">  </script>
+  </body>
+</html>
