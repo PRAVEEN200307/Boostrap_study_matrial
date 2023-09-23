@@ -55,21 +55,135 @@
       <!-- end Header -->
       
       <!-- Totorial request form -->
-      <section class="bg-hero text-white">
+      <section class="bg-hero pt-5 text-white">
          <div class="container">
            <div class="row">
              <div class="col-sm-4">
-              <div class="mt-5">
-                <img src="image/message+one+comment+one+message+request+icon-1320184041562889001.png" 
-                alt="totorial icon" width="240">
-                <h1>Have a tutorial request?</h1>
-                <p class="lead">share it with us! we will try to make it available</p>
-              </div> 
+                <div class="mt-5">
+                  <img src="image/message+one+comment+one+message+request+icon-1320184041562889001.png" 
+                  alt="totorial icon" width="240">
+                  <h1>Have a tutorial request?</h1>
+                  <p class="lead">share it with us! we will try to make it available</p>
+                </div> 
              </div>
-             <div class="col-sm-8">
+             <div class="col-sm-8 ">
               <div class="card">
                 <!-- form -->
-                 
+                 <div class="card-body">
+                  <form action="" class="post">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <div class="mb-2">
+                             <label for="FullName" class="form-label">Full Name</label>
+                             <input type="text" name="fullName" id="FullName" class="form-control" placeholder="Full name">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="mb-2">
+                            <label for="email" class="form-label">email</label>
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
+                          </div>
+                       </div>
+                    </div>
+                    <div class="mb-2">
+                      <label for="prev_learnt" class="form-label" >previous what did you learn from the channel?</label>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-check">
+                            <input type="checkbox" id="course_html" class="form-check-input" 
+                            name="crouse[]" value="HTML5">
+                            <label for="course_html" class="form-check-label">HTML5 Course</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" id="course_CSS3" class="form-check-input" 
+                            name="crouse[]" value="CSS3">
+                            <label for="course_CSS3" class="form-check-label">CSS3 Course</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" id="course_flex" class="form-check-input" 
+                            name="crouse[]" value="FLEXBOX">
+                            <label for="course_flex" class="form-check-label">CSS Flexbox</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-check">
+                            <input type="checkbox" id="course_boostrap" class="form-check-input" 
+                            name="crouse[]" value="boostrap">
+                            <label for="course_boostrap" class="form-check-label">Boostrap Course</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" id="javascript" class="form-check-input" 
+                            name="crouse[]" value="CSS3">
+                            <label for="javascript" class="form-check-label">javascript Course</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" id="course_flex" class="form-check-input" 
+                            name="crouse[]" value="FLEXBOX">
+                            <label for="course_flex" class="form-check-label">Others</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-6">
+                         <div class="mb-2">
+                            <label for="isSubscribed">Did you subscribe to the channel</label>
+                            <div class="form-check">
+                              <input type="radio" class="form-check-input" name="isSubscribed" id="isSubscribed"  value="YES">
+                              <label for="isSubscribed" class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                              <input type="radio" class="form-check-input" name="isSubscribed" id="isSubscribed"  value="NO">
+                              <label for="isSubscribedNO" class="form-check-label">NO</label>
+                            </div>
+                         </div>
+                         <div class="mb-2">
+                           <label for="year" class="form-label">From which year are you with us</label>
+                           <select name="year" id="year" class="form-select" aria-label="Default select examplw">
+                            <option selected>-- Select year --</option>
+                            <option value="2022">2022</option>
+                            <option value="2020">2020</option>
+                            <option value="2018">2018</option>
+                            <option value="Other year">Other year</option>
+                           </select>
+                         </div>
+                      </div>
+                      <div class="col-sm-6 ">
+                         <div class="mb-2">
+                           <label for="tutorial_request">Do you have any tutorial request?</label>
+                           <textarea name="tutorial_request" id="tutorial_request" 
+                           rows="5" placeholder="share with us" class="no-resize form-control">
+                           </textarea>
+                         </div>
+                      </div> 
+                    </div>
+                     
+                    <div class="mb-2">
+                      <label for="dedicated_app" class="form-label">Do you want to create adedicated app for this</label>
+                      <div class="cleatfix"></div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" name="app" id="yes" class="form-check-input" value="yes">
+                        <label for="yes" class="form-input-label">Yes</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" name="app" id="no" class="form-check-input" value="no">
+                        <label for="no" class="form-input-label">No</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" name="app" id="maybe" class="form-check-input" value="maybe">
+                        <label for="maybe" class="form-input-label">maybe</label>
+                      </div>
+                    </div>
+
+                    <div class="mb-2 d-grid">
+                      <div class="btn btn-primary">
+                        <i class="fa-solid fa-lock me-2"></i>
+                        Register</div>
+                    </div>
+                  </form>
+                  </div>
+              </div>
               </div>
              </div>
            </div>
